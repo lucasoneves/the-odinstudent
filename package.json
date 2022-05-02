@@ -3,5 +3,26 @@
   "version": "1.0.0",
   "main": "script.js",
   "author": "lucas neves",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "Olá, odin project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files **",
+    "dev": "yarn parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasoneves/the-odinstudent.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/lucasoneves/the-odinstudent/issues"
+  },
+  "homepage": "https://github.com/lucasoneves/the-odinstudent#readme",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
 }
