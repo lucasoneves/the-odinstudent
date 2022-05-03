@@ -13,6 +13,7 @@
 }
 
 .main-header--wrapper {
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -109,6 +110,29 @@
   border: 4px solid #191950;
   border-radius: 20px;
   margin-bottom: 10px;
+}
+
+.blockquote-content {
+  background: #e5e7eb;
+  padding: 150px 0;
+}
+
+.blockquote-content .container {
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+}
+
+.blockquote-content blockquote {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.blockquote-content span {
+  margin-right: 6%;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=index.558629d4.css.map */
